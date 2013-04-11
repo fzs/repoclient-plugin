@@ -4,10 +4,11 @@
     <parent>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>plugin</artifactId>
-      <version>1.464</version>
+      <version>1.500</version>
     </parent>
+    
     <artifactId>repoclient</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.1-cbe-1</version>
     <packaging>hpi</packaging>
     <name>Maven Repository Client Plugin</name>
     <description>Provides access to artifacts in a Maven repository</description>
@@ -90,10 +91,6 @@
       <repository>
         <id>repo.jenkins-ci.org</id>
         <url>http://repo.jenkins-ci.org/public/</url>
-      </repository>
-      <repository>
-        <id>maven.glassfish.org</id>
-        <url>http://maven.glassfish.org/</url>
       </repository>
     </repositories>
 
