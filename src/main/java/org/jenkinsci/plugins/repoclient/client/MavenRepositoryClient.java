@@ -278,7 +278,7 @@ public class MavenRepositoryClient {
 	private static HttpClient createHttpClient(String username, String password) {
 		HttpClient client = new HttpClient();
 
-		setProxy(client);
+		//setProxy(client);
 
 		// establish a connection within 10 seconds
 		client.getHttpConnectionManager().getParams()
